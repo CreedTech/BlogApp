@@ -1,0 +1,36 @@
+.text {
+    color: red;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+.form-wrapper {
+    background-color: gray;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px 30px 30px 20px;
+}
+.field {
+    margin-top: 40px;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.field label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.field input {
+    height: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.btn {
+    width: 100%;
+    background-color: gray;
+    border: 2px solid #fff;
+}
