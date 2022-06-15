@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Blog, Category
+from .models import Blog, Category, Comment
 from import_export.admin import ImportExportMixin
 
 # Register your models here.
@@ -13,3 +13,5 @@ admin.site.register(Blog, BlogAdmin)
 class CategoryAdmin(ImportExportMixin, admin.ModelAdmin):
     list_display = ["name"]
 admin.site.register(Category, CategoryAdmin)
+
+admin.site.register(Comment)
